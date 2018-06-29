@@ -32,7 +32,7 @@ const totalRevenue = function (arr) {
 };
 
 const averageRevenue = function (arr) {
-  totalRevenue = arr.reduce(function(agg, el) {
+  const totalRevenue = arr.reduce(function(agg, el) {
     return agg + el.revenue;
   }, 0);
   return totalRevenue/arr.length;
