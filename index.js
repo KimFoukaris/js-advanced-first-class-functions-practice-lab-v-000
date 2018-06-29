@@ -30,3 +30,10 @@ const totalRevenue = function (arr) {
     return agg + el.revenue;
   }, 0);
 };
+
+const averageRevenue = function (arr) {
+  totalRevenue = arr.reduce(function(agg, el) {
+    return agg + el.revenue;
+  }, 0);
+  return totalRevenue/arr.length;
+};
