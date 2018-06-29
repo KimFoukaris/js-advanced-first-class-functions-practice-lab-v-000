@@ -15,5 +15,5 @@ const driversByRevenue = function(arr) {
   newArray = arr.slice().sort(function (a, b) {
       return a.revenue - b.revenue;
 });
-return newArray
+return newArray;
 };
