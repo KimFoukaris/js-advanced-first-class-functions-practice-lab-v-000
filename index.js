@@ -13,7 +13,7 @@ const logDriversByHometown = function (arr, location) {
 
 const driversByRevenue = function(arr) {
   debugger;
-  arr.sort(function (a, b) {
+  return arr.sort(function (a, b) {
     debugger;
   return a.revenue - b.revenue;
 });
