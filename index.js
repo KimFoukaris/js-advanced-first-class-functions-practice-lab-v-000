@@ -24,3 +24,7 @@ const driversByName = function (arr) {
   });
   return newArray;
 };
+
+const totalRevenue = function (arr) {
+  return arr.revenue.reduce(sum)
+};
