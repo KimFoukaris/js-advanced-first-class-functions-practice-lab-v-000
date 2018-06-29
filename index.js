@@ -22,4 +22,5 @@ const driversByName = function (arr) {
   return newArray = arr.slice().sort(function (a,b) {
     return a.localCompare(b);
   });
+  return newArray;
 };
